@@ -75,13 +75,13 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="bg-info" style="height: 200px"></div>
+                                <img class="d-block h-100 w-100" src="./myImage/1.jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <div class="bg-success" style="height: 200px"></div>
+                                <img class="d-block h-100 w-100" src="./myImage/2.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <div class="bg-warning" style="height: 200px"></div>
+                                <img class="d-block h-100 w-100" src="./myImage/3.jpg" alt="Third slide">
                             </div>
                         </div>
                         <a href="#slide" class="carousel-control-prev" data-bs-slide="prev">
@@ -92,7 +92,12 @@
                         </a>
                     </div>
                 </nav>
-                <main class="col-10 bg-secondary">
+                <main id="bgphoto" class="col-10 bg-secondary">
+                    <script>
+                        var url = "./myImage/1.jpg";
+                        var main = document.getElementById("bgphoto");
+                        main.style.backgroundImage = `url(${url})`;
+                    </script>
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <div class="flex-fill"></div> 
                        <!-- Menu ကို ညာzက်ခြမ်းမှာ ကပ်ပေါ်စေချင်လို့ flex-fill Element အလွတ်တစ်
