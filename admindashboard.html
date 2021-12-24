@@ -27,17 +27,17 @@
                         </a>
                         <a href="#" class="list-group-item list-group-item-action">
                             <i class="fas fa-user"></i>
-                            <span class="d-none d-lg-inline">ユーザー</span>
+                            <span class="d-none d-lg-inline">User</span>
                             <span class="d-none d-lg-inline 
                             badge bg-danger rounded-pill float-end">20</span>
                         </a>
                         <a href="#" class="list-group-item list-group-item-action">
                             <i class="fas fa-chart-line"></i>
-                            <span class="d-none d-lg-inline">スタティスティックス</span>
+                            <span class="d-none d-lg-inline">Statistics</span>
                         </a>
                         <a href="#" class="list-group-item list-group-item-action">
                             <i class="fas fa-flag"></i>
-                            <span class="d-none d-lg-inline">レポート</span>
+                            <span class="d-none d-lg-inline">Report</span>
                         </a>
                     </div>
                     <div class="list-group mt-4 text-center text-lg-start">
@@ -46,17 +46,49 @@
                         </span>
                         <a href="#" class="list-group-item list-group-item-action">
                             <i class="fas fa-user"></i>
-                            <span class="d-none d-lg-inline">新しいユーザー</span>
+                            <span class="d-none d-lg-inline">New User</span>
                         </a>
 
                         <a href="#" class="list-group-item list-group-item-action">
                             <i class="fas fa-edit"></i>
-                            <span class="d-none d-lg-inline">データ更新</span>
+                            <span class="d-none d-lg-inline">Data Update</span>
                         </a>
 
                         <a href="#" class="list-group-item list-group-item-action">
                             <i class="fas fa-calendar-alt"></i>
-                            <span class="d-none d-lg-inline">イベントを入れる</span>
+                            <span class="d-none d-lg-inline">Add Event</span>
+                        </a>
+                    </div>
+                    <!-- <div class="photo mt-4 text-center text-lg-start">
+                        <span class="d-none d-lg-inline"></span>
+
+                        <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Show the photo</button>
+                        <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+                        <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Next photo</button>
+                    </div> -->
+                    <div class="carousel slide" data-bs-ride="carousel" id="slide">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#slide" data-bs-slide-to="0"
+                            class="active"></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="bg-info" style="height: 200px"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="bg-success" style="height: 200px"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="bg-warning" style="height: 200px"></div>
+                            </div>
+                        </div>
+                        <a href="#slide" class="carousel-control-prev" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#slide" class="carousel-control-next" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>
                 </nav>
@@ -74,10 +106,10 @@
 
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="#" class="dropdown-item">ユーザープロフィール</a>
+                                        <a href="#" class="dropdown-item">User Profile</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item">ログアウト</a>
+                                        <a href="#" class="dropdown-item">Logout</a>
                                     </li>
                                 </ul>
                             </li>
@@ -93,8 +125,8 @@
                             <div class="col">
                                 <div class="alert alert-info">
                                     <i class="fas fa-download me-2"></i>
-                                    Admin Dashboard の新バージョンをリリースしました.
-                                    <a href="#">今すぐ、ダウンロード!</a>
+                                   A new version of Admin Dashboard is released.
+                                    <a href="#">Download Now!</a>
                                 </div>
                             </div>
                         </div>
